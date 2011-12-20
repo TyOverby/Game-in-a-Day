@@ -32,3 +32,13 @@ header{
 	float:left;
 	display:inherit;
 }
+
+.entry{
+	background-color:red;
+	height:100px;
+	text-align:right;
+}
+
+.entry>ul>li,.entry>ol>li,.entry>h1{
+	margin:0px;
+}

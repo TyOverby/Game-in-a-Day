@@ -96,7 +96,14 @@ function bannerGame(){
 			}
 		},
 
+		updateSize: function(){
+			canvas.setSize($(".half").width(),height);
+			console.log("resizing");
+		},
+
 		update: function(){
+			width = canvasElement.width();
+			height = canvasElement.height();
 
 			for(var i=0;i<points.length;i++){
 				points[i].update();
@@ -127,6 +134,7 @@ function bannerGame(){
 			return true;
 		}
 	}
+	$(window).resize(dots.updateSize);
 
 	game = new Engine(dots,50);
 	game.run();

@@ -26,9 +26,9 @@ function calcChange(){
 			cont.css("top",posY);
 
 			cont.css("width",width);
-			cont.css("height",height);
+			cont.css("min-height",height);
 		
 		// Modify all the other slides
 			halves.css("width",width/2);
-			halves.css("height",height);
+			halves.css("min-height",height);
 }

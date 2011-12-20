@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-            This is the title
+            Game-in-a-Day!
         </title>
         
         <link href='http://fonts.googleapis.com/css?family=Atomic+Age|Orbitron|Geo|Electrolize|Iceland' rel='stylesheet' type='text/css'>
@@ -20,20 +20,50 @@
     </head>
     <body>
         <header>
-            Game-a-Day!
+            Game-in-a-Day!
         </header>
         <div class="container">
             <div class="half one">
                 <canvas id="banner"></canvas>
-                <h1>
-                    What is Game-a-Day?
-                </h1>
-                <p>
-                    Game-a-Day is a place for me to host my friends and my html5 games.  Here we focus on rapid development to quickly learn about this new technology.  This means that naturally there will be a lot of reinventing the wheel, but once in a while something new 
-                </p>
+                <div id="content">
+                    <h1>
+                        What is Game-a-Day?
+                    </h1>
+                    <p>
+                        Game-a-Day is a place for me to host my friends and my html5 games.  Here we focus on rapid development to quickly learn about this new technology.  This means that naturally there will be a lot of reinventing the wheel, but once in a while I'll try something new.
+                    </p>
+                    <h1>
+                        How did it start?
+                    </h1>
+                    <p>
+                        This all first started when I had some free time at a Speech and Debate tournament.  I thought it would be fun to make a clone of Pong (now lost to time).  The thing was, I only had 4 hours to do it!  I ended up completing in the time limit, and had so much fun that I started doing them regularly.
+                    </p>
+                    <p>
+                        When I made the first Pong, it was my first time working in Javascript, and all I had with me was a Javascript quick guide book (the school didn't even have internet!).  As a result, I had to experiment through all of Javascript's zany syntax.  For all the rest of the games that I made, I have kept to this style: no internet, with a strict time limit to keep me from worrying about the details.  
+                    </p>
+                    <h1>
+                        Rough Rules
+                    </h1>
+                    <p>
+                        <ul>
+                            <li> No Internet (if you are using a library, this is acceptable)</li>
+                            <li> 24 hour time limit</li>
+                        </ul>
+                    </p>
+                </div>
             </div>
             <div class="half two">
-                another one
+                <div class="entry" id="snake" style="background-image:url('./img/snake.png');color:white;">
+                    <h1><a href="./games/snake.html">Rainbow Snake</a></h1>
+                    <ul>
+                        <li>
+                            Collect food in order to grow.
+                        </li>
+                        <li>
+                            Wrap around the map.
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </body>
